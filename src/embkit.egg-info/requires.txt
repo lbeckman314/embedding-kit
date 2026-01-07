@@ -8,4 +8,5 @@ gripql
 tqdm
 biopython
 fair-esm
+faiss-cpu
 h5py

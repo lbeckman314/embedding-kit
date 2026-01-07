@@ -17,6 +17,7 @@ Requires-Dist: gripql
 Requires-Dist: tqdm
 Requires-Dist: biopython
 Requires-Dist: fair-esm
+Requires-Dist: faiss-cpu
 Requires-Dist: h5py
 
 
