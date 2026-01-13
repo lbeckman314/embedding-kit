@@ -12,3 +12,5 @@ scipy
 h5py
 hopcroftkarp
 faiss
+pytest
+pytest-cov
