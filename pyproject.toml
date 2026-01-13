@@ -24,8 +24,27 @@ dependencies = [
     "gripql",
     "tqdm",
     "biopython",
-    "fair-esm"
+    "fair-esm",
+    "h5py",
+    "hopcroftkarp",
+    "umap-learn",
+    "matplotlib",
+    "seaborn",
 ]
+
+[project.optional-dependencies]
+faiss-cpu = ["faiss-cpu"]
+faiss-gpu = ["faiss-gpu"]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "coverage",
+]
+docs = [
+    "mkdocs",
+    "mkdocs-click",
+]
+all = ["embkit[faiss-cpu,dev,docs]"]
 
 [tool.setuptools]
 package-dir = { "" = "src" }

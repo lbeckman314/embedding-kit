@@ -1,3 +1,0 @@
-mkdocs-click
-mkdocstrings
-mkdocstrings-python
