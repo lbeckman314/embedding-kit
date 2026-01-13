@@ -5,21 +5,21 @@ Methods for data normalization, embedding, synthesis and transformation
 
 
 ## Installation
-```
+```bash
 pip install embkit
 ```
 
 # Training a model
-```
+```bash
 embkit model train-vae ./experiments/tcga/tumor.normalized.tsv --epochs 120
 ```
 
 ## Development
 
 To install the library locally use:  
-```pip install -e .```  
-```python setup.py build```  
-```python setup.py install```  
+```bash
+pip install -e .
+```  
 
 ### To run tests use:
 ```bash
