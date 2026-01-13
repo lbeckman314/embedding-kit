@@ -2,7 +2,7 @@ import unittest
 import os
 import numpy as np
 import torch
-from embkit.files.h5 import H5Writer, H5Reader
+from embkit.files import H5Writer, H5Reader
 import tempfile
 
 class TestH5(unittest.TestCase):
